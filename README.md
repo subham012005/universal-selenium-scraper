@@ -75,3 +75,4 @@ And you're scraping Flipkart. Change to any site!
   options.add_argument("--headless")  # Optional, comment out if you want to see browser
   ```
 Now You don't able to see any browser window popup everytime.
+# Suggested to use with browser popup because sometimes it shows site can't be reached. Every time check response.
