@@ -63,3 +63,15 @@ Change:
 target_url = "https://www.flipkart.com"
 ```
 And you're scraping Flipkart. Change to any site!
+
+## IMPORTANT
+- If you'r using
+  ```bash
+  # options.add_argument("--headless")  # Optional, comment out if you want to see browser
+  ```
+  in your code a webBrowser window opens , don't close that window because that a referance of scraping
+- In case you don't want that window open every time simply change above line with
+  ```bash
+  options.add_argument("--headless")  # Optional, comment out if you want to see browser
+  ```
+Now You don't able to see any browser window popup everytime.
